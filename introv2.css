@@ -1,12 +1,24 @@
 h1 {
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'sans-serif';
 }
 h2{
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Courier New';
 }
 h3 {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+h4 {
+    font-size: 20px;
+    font-family: 'sans-serif';
+}
+h5{
+    font-size: 20px;
+    font-family: 'Courier New';
+}
+h6 {
     font-size: 20px;
     font-family: 'Lucida Sans';
 }
@@ -16,7 +28,7 @@ h3 {
     color: orangered;
 }
 .cont{
-    color: blue;
-    background-color: yellowgreen;
+    color: whitesmoke;
+    background-color: midnightblue;
     font-family: 'Times New Roman';
 }
