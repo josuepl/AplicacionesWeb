@@ -1,83 +1,79 @@
-#int{
-    width: 40%;
-    border: black solid 10px;
-    margin: 5px;
-    padding: 20px;
-    background-color: #66a9e9;
-    display: inline-block;
-}
-#container{
-    text-align: center; 
-}
-.headers{
+#banner{
+    width: 95%;
+    border: solid black 2px;
+    background-color: darkcyan;
+    color: white;
     text-align: center;
-    font-size: 2.5vw;
-    border: white solid 3px;
+    font-size: 3vw;
 }
 p{
-    border: solid rgba(6, 117, 148, 0.631) 2px;
-    font-size: 1vw;
-    padding: .1vw;
-    margin: .1vw;
-    display: inline-flex;
-}
-#p1{
-    background-color: #4a9ae9 ;
-    text-align: right;
-    width: 27%;
-  
+    font-size: 1.5vw;
 }
 
-
-#p2{
-    background-color: #fa9aea ;
-    text-align: justify;
-    width: 37%;
-
+#container{
+    width: 95%;
+    border: solid black 2px;
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
 }
 
-#p3{
-    background-color: #009aea ;
-    text-align: left;
-    width: 17%;
+#headers{
+    font-size: 2vw;
+}
 
+#int{
+    text-align: center;
+    width: 40%;
+    border: black solid 2px;
+    background-color: darkred;
+    padding: 2px;
+    margin: 2px;
+}
+
+#int2{
+    text-align: center;
+    width: 40%;
+    border: black solid 2px;
+    background-color: darkorchid;
+    padding: 2px;
+    margin: 2px;
+}
+#int3{
+    text-align: center;
+    width: 40%;
+    border: black solid 2px;
+    background-color: darkslategray;
+    padding: 2px;
+    margin: 2px;
+}
+#int4{
+    text-align: center;
+    width: 40%;
+    border: black solid 2px;
+    background-color: deepskyblue;
+    padding: 2px;
+    margin: 2px;
 }
 #img{
-    width: 50%;
-    text-align: center;
-}*{
-    padding: 5px;
-    margin: 5px;
+    width: 90%;
 }
-
-header{
-    background-color: chocolate;
-    border: black solid 3px;
+li{
+    display: inline-block;
+    
+    text-decoration: none;
 }
-
-#banner{
-    background-color: black;
-    color: white;
-    text-align: center;
+nav#menu{
+    background-color: dodgerblue;
+    border: 2px black solid;
     width: 95%;
-    border: yellowgreen 5px solid;
-    padding: 5px;
-    margin: 5px;
+    text-align: center;
 }
-
-#aside{
-    display: inline-flex;
-    width: 10%;
-    background-color: blueviolet;
-    border: black solid 2px;
+a{
+    text-decoration: none;
 }
-#container{
-    display: inline-flex;
-    width: 60%;
-    background-color: cornflowerblue;
-    color: white;
-    border: black solid 2px;
-}
-p{
-    font-size: 1vw;
+a:hover{
+    background-color: yellowgreen;
+    font-size: 3vw;
 }
