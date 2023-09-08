@@ -9,9 +9,13 @@
 p{
     font-size: 1.5vw;
 }
-
+#principal{
+    width: 90%;
+    display: inline-block;
+}
 #container{
-    width: 95%;
+    display: inline-block;
+    width:90%;
     border: solid black 2px;
     background-color: darkolivegreen;
     color: white;
@@ -21,11 +25,14 @@ p{
 
 #headers{
     font-size: 2vw;
+    width: 100%;
+    display: inline;
 }
 
 #int{
     text-align: center;
-    width: 40%;
+
+    width: 35%;
     border: black solid 2px;
     background-color: darkred;
     padding: 2px;
@@ -34,7 +41,7 @@ p{
 
 #int2{
     text-align: center;
-    width: 40%;
+    width: 35%;
     border: black solid 2px;
     background-color: darkorchid;
     padding: 2px;
@@ -42,7 +49,7 @@ p{
 }
 #int3{
     text-align: center;
-    width: 40%;
+    width: 35%;
     border: black solid 2px;
     background-color: darkslategray;
     padding: 2px;
@@ -50,7 +57,7 @@ p{
 }
 #int4{
     text-align: center;
-    width: 40%;
+    width: 35%;
     border: black solid 2px;
     background-color: deepskyblue;
     padding: 2px;
@@ -76,4 +83,14 @@ a{
 a:hover{
     background-color: yellowgreen;
     font-size: 3vw;
+}
+aside{
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    width: 15%;
+    text-align: left;
+}
+#lista{
+    display: block;
 }
