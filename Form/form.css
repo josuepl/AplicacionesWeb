@@ -2,6 +2,9 @@
     font-size: 2vw;
 }
 
+body{
+    display: inline-flex;
+}
 #intro{
     background-color: darkblue;
     color: white;
@@ -10,6 +13,17 @@
     border: black solid 2px;
 }
 
-#intro input[text]{
+#intro input[type=text]{
     width: 100%;
+}
+#intro input[type=radio]{
+    width: 25%;
+}
+#intro input[type=checkbox]{
+    width: 40%;
+}
+#resultado{
+    width: 25%;
+    background-color: darkslategray;
+    color: white;
 }
